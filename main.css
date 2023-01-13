@@ -1,0 +1,68 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.card-body {
+  height: 400px;
+  border: 1px;
+  border-style: solid;
+  border-color: lightblue;
+
+  
+}
+
+.top {
+  height: 75px;
+  background-color: darksalmon;
+  font: Franklin Gothic;
+  font-size: 20px;
+}
+
+.status {
+  font: Arial;
+  font-size: 25px;
+  height: 30px;
+  background-color: grey;
+  color: yellow;
+}
+
+.middle {
+  height: 100px;
+  font: Raleway;
+  font-size: 15px;
+  position: relative;
+}
+
+.card-text {
+  position: relative;
+}
+
+.image-one {
+  position: absolute;
+}
+
+
+
+.ticket-price {
+  font-size: 15px;
+}
+
+.availability {
+  font-size: 15px;
+}
+
+.bottom {
+  height: 100px;
+}
+
+.tickets-available {
+  font-size: 12px;
+}
+
+.prices {
+  font-size: 12px;
+}
